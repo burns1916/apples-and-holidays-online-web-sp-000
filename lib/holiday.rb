@@ -54,6 +54,7 @@ holiday_hash.each do |time_of_year, value|
     time_of_year.each_key(holiday_name)
   # remember to return the updated hash
 end
+end
 holiday_hash
 end
 
