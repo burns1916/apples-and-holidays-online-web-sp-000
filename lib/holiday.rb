@@ -53,7 +53,7 @@ holiday_hash.each do |time_of_year, value|
   if time_of_year == season
     time_of_year.each_key(holiday_name)
   # remember to return the updated hash
-
+end
 holiday_hash
 end
 
