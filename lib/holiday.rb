@@ -51,12 +51,12 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
 holiday_hash.each do |time_of_year, value|
   if time_of_year == season
-    binding.pry
     time_of_year.each_key(holiday_name)
+    binding.pry
   # remember to return the updated hash
 end
 end
-holiday_hash
+return holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
